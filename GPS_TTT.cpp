@@ -113,6 +113,8 @@ double getAdjustedHeading(double rawHeading) {
     if (adjustedHeading >= 360) adjustedHeading -= 360;
 
     return adjustedHeading;
+
+    // adjust angle();
 }
 void loop() {
      while (Serial1.available() > 0) {
